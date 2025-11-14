@@ -1,7 +1,17 @@
 [
   {
-    "id": 1,
-    "nome": "adsd",
-    "email": "22sghu74e@sdfvb.ss.com"
+    "id": 2,
+    "nome": "Antonio Almeida",
+    "email": "toninmeida@gmail.com"
+  },
+  {
+    "id": 3,
+    "nome": "Augusto",
+    "email": "Augusto@gmail.com"
+  },
+  {
+    "id": 4,
+    "nome": "gisele",
+    "email": "gisele@gmail.com"
   }
 ]
