@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciamento de Usuários</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciamento de Usuários</h1>
+
+    <!-- Formulário de cadastro -->
+    <form id="formUsuario">
+      <input type="text" id="nome" placeholder="Nome do usuário" required>
+      <input type="email" id="email" placeholder="Email do usuário" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <!-- Tabela de usuários -->
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaUsuarios">
+        <!-- Aqui os usuários serão listados dinamicamente -->
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
